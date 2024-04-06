@@ -1,0 +1,183 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.outerbox{
+	border: solid 1px;
+	height: 140px;
+	display: flex;
+}
+#box1,#box2,#box3{
+	border: solid 1px;
+	height: 140px;
+}
+#box1{
+	width:250px;
+}
+#box2{
+	width:1000px;
+	text-align: center;
+	
+}
+#box3{
+	width: 250px;
+}
+#clgname{
+	color: red;
+	font-size: 40px;
+}
+#text1{
+	font-size: 26px;
+	font-weight: bold;
+}
+#text2{
+	font-size: 28px;
+	font-weight: bold;
+	color: navy;
+}
+#scrolltext{
+	font-size: 22px;
+	font-weight: bold;
+}
+.nav{
+	border: solid 1px;
+	height: 50px;
+}
+ul li{
+	border: solid 1px;
+	height: 50px;
+	width: 166.35px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	background-color: #61c7c4;
+}
+ul{
+	list-style: none;
+}
+ul li a{
+	color: navy;
+	font-size: 20px;
+	text-decoration:none;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+.obox{
+	border: solid 1px;
+	height: 350px;
+	display: flex;
+	justify-content:space-between; 
+}
+#in1,#in2,#in3{
+	border: solid 1px;
+	height: 350px;
+	z-index: -1;
+}
+#in1{
+	width: 550px;
+	background-image: url(clglogo.jpg);
+	background-repeat: no-repeat;
+	background-size: 550px 350px;
+	animation-name: imgchange;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes imgchange{
+	10%{
+		background-image: url(clglogo.jpg);
+	}
+	20%{
+		background-image: url(img2.jpg);
+	}
+	30%{
+		background-image: url(1.png);
+	}
+	40%{
+		background-image: url(img4.jpg);
+	}
+	50%{
+		background-image: url(img5.jpg);
+	}
+	60%{
+		background-image: url(25logo.jpg);
+	}
+}
+#in2,#in3{
+	width: 320px;
+}
+#Placements{
+	border: solid 1px;
+	height: 300px;
+}
+.header{
+	border: solid 1px;
+	height: 50px;
+	background-color: red;line-height: 50px;
+	padding-left: 100px;
+	
+}
+#head1{
+	padding-right: 35px;
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+}
+.out{
+	border: solid 1px;
+	height: 550px;
+	display: flex;
+}
+#ug,#pg{
+	border: solid 1px;
+	height: 480px;
+}
+#ug,#pg{
+	width: 700px;
+	margin: 10px;
+
+}
+#course{
+	border: solid 1px;
+	height: 40px;
+	margin: 20px;
+	border-radius: 20px;
+	padding-left: 18px;
+	line-height: 40px;
+	background-color: bisque;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+#ug{
+	background-color: #32a4a8;
+	border-radius:20px;
+}
+#course2{
+	border: solid 1px;
+	height: 40px;
+	margin: 20px;
+	border-radius: 20px;
+	padding-left: 18px;
+	line-height: 40px;
+	background-color: bisque;
+	font-size: 20px;
+	font-weight: bold;
+}
+#pg{
+	background-color:#32a4a8;
+	border-radius: 20px;
+#course:hover{
+    background-color:gold;
+}
+ul li:hover{
+	background-color:red;
+}
+
+
+
+
